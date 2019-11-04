@@ -5,7 +5,8 @@ while i <= 9:
     j = 1
     # j 为列数
     while j <= i:
-        print(j, '*', i, '=', j * i,end='  ')
+        # print(j, '*', i, '=', j * i,end='  ')
+        print(f'{j}*{i}={j*i}',end='  ')
         j += 1
     print('\n')
     i += 1
